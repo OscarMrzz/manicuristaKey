@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* quiero colocar estilos personalisados para taiwon */
+/* Colocalos */
+
+@theme{
+  --theme-color-primario: #ffcad4;
+  --theme-color-secundario: #f4acb7;
+  --theme-color-terciario: #9d8189;
+}
+
+
+
+
+
+
