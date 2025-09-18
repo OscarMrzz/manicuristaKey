@@ -1,12 +1,28 @@
+---
+import WhsappIcono from "./Iconos/WhsappIcono.astro";
+---
 
-<div class="bg-pink-500  h-80 p-4 flex flex-col ">
-  <h1 class="text-7xl text-white font-bold">KEYSSEN</h1>
-  <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing,
-     voluptatum!</p>
-     <a  href="https://wa.me/96791567? "
-    target="_blank" rel="noopener noreferrer"
-     
-     >
-    <button class="bg-white text-pink-500 rounded-full w-42 h-12 mt-10 text-2xl">Contactame</button>
-</a>
+<div
+  class="bg-pink-500 h-80 p-4 flex flex-col relative overflow-hidden"
+  style="background-image: url('/Imagenes/Nails/EsmalteEnGel/EsmalteEnGel01.webp'); background-size: cover; background-position: center;"
+>
+  <div class="absolute inset-0 bg-pink-900 opacity-50 pointer-events-none"></div>
+  <div class="relative z-10">
+    <h1
+      class="text-7xl text-white font-bold text-shadow-gray-500 text-shadow-2xs"
+    >
+      KEY<span class="text-pink-400">NAILS</span>
+    </h1>
+    <p class="text-white"></p>
+    <a
+      href="https://wa.me/96791567? "
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <button
+        class="bg-white flex justify-center items-center  text-pink-500 rounded-full w-52 h-14 mt-10 text-2xl font-bold"
+        ><WhsappIcono/> Contactame</button
+      >
+    </a>
+  </div>
 </div>
