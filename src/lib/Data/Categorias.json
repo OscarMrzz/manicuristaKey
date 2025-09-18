@@ -1,20 +1,20 @@
 [
     {
         "Ruta": "Acrilicas",
-        "imagenPortada": "public/Imagenes/Nails/Acrilicas/acrilicas01.webp",
+        "imagenPortada": "/Imagenes/Nails/Acrilicas/acrilicas01.webp",
         "Categoria": "Acrilicas",
         "Descripcion": "",
         "contenido": [
             {
                 "Nombre": "Acr-01",
                 "Descripcion": "",
-                "Imagen": "public/Imagenes/Nails/Acrilicas/acrilicas01.webp",
+                "Imagen": "/Imagenes/Nails/Acrilicas/acrilicas01.webp",
                 "precio": 0.00
             },
             {
                 "Nombre": "Acr-02",
                 "Descripcion": "",
-                "Imagen": "public/Imagenes/Nails/Acrilicas/acrilicas02.webp",
+                "Imagen": "/Imagenes/Nails/Acrilicas/acrilicas02.webp",
                 "precio": 0.00
             }
          
@@ -22,32 +22,32 @@
     },
     {
         "Ruta": "AcrilicasAlmendradas",
-        "imagenPortada": "public/Imagenes/Nails/AcrilicasAlmendradas/AcrilicasAlmendradas01.webp",
+        "imagenPortada": "/Imagenes/Nails/AcrilicasAlmendradas/AcrilicasAlmendradas01.webp",
         "Categoria": "Acrilicas Almendradas",
         "Descripcion": "",
         "contenido": [
             {
                 "Nombre": "Acr-Alm-01",
                 "Descripcion": "",
-                "Imagen": "public/Imagenes/Nails/AcrilicasAlmendradas/AcrilicasAlmendradas01.webp",
+                "Imagen": "/Imagenes/Nails/AcrilicasAlmendradas/AcrilicasAlmendradas01.webp",
                 "precio": 0.00
             },
             {
                 "Nombre": "Acr-Alm-02",
                 "Descripcion": "",
-                "Imagen": "public/Imagenes/Nails/AcrilicasAlmendradas/AcrilicasAlmendradas02.webp",
+                "Imagen": "/Imagenes/Nails/AcrilicasAlmendradas/AcrilicasAlmendradas02.webp",
                 "precio": 0.00
             },
             {
                 "Nombre": "Acr-Alm-03",
                 "Descripcion": "",
-                "Imagen": "public/Imagenes/Nails/AcrilicasAlmendradas/AcrilicasAlmendradas03.webp",
+                "Imagen": "/Imagenes/Nails/AcrilicasAlmendradas/AcrilicasAlmendradas03.webp",
                 "precio": 0.00
             },
             {
                 "Nombre": "Acr-Alm-04",
                 "Descripcion": "",
-                "Imagen": "public/Imagenes/Nails/AcrilicasAlmendradas/AcrilicasAlmendradas04.webp",
+                "Imagen": "/Imagenes/Nails/AcrilicasAlmendradas/AcrilicasAlmendradas04.webp",
                 "precio": 0.00
             }
         
@@ -55,14 +55,14 @@
     },
     {
         "Ruta": "Acripie",
-        "imagenPortada": "public/Imagenes/Nails/Acripie/Acripie01.webp",
+        "imagenPortada": "/Imagenes/Nails/Acripie/Acripie01.webp",
         "Categoria": "Acripie",
         "Descripcion": "",
         "contenido": [
             {
                 "Nombre": "Acripie-01",
                 "Descripcion": "",
-                "Imagen": "public/Imagenes/Nails/Acripie/Acripie01.webp",
+                "Imagen": "/Imagenes/Nails/Acripie/Acripie01.webp",
                 "precio": 0.00
             }
          
@@ -70,20 +70,20 @@
     },
     {
         "Ruta": "BanioAcrilico",
-        "imagenPortada": "public/Imagenes/Nails/BanioAcrilico/banioAcrilico01.webp",
+        "imagenPortada": "/Imagenes/Nails/BanioAcrilico/banioAcrilico01.webp",
         "Categoria": "Baño Acrilico",
         "Descripcion": "",
         "contenido": [
             {
                 "Nombre": "Baño-Acr-01",
                 "Descripcion": "",
-                "Imagen": "public/Imagenes/Nails/BanioAcrilico/banioAcrilico01.webp",
+                "Imagen": "/Imagenes/Nails/BanioAcrilico/banioAcrilico01.webp",
                 "precio": 0.00
             },
             {
                 "Nombre": "Banio-Acr-02",
                 "Descripcion": "",
-                "Imagen": "public/Imagenes/Nails/BanioAcrilico/banioAcrilico02.webp",
+                "Imagen": "/Imagenes/Nails/BanioAcrilico/banioAcrilico02.webp",
                 "precio": 0.00
             }
         
@@ -92,14 +92,14 @@
     },
     {
         "Ruta": "EsmalteEnGel",
-        "imagenPortada": "public/Imagenes/Nails/EsmalteEnGel/EsmalteEnGel01.webp",
+        "imagenPortada": "/Imagenes/Nails/EsmalteEnGel/EsmalteEnGel01.webp",
         "Categoria": "Esmalte en Gel",
         "Descripcion": "",
         "contenido": [
             {
                 "Nombre": "Esm-Gel-01",
                 "Descripcion": "",
-                "Imagen": "public/Imagenes/Nails/EsmalteEnGel/EsmalteEnGel01.webp",
+                "Imagen": "/Imagenes/Nails/EsmalteEnGel/EsmalteEnGel01.webp",
                 "precio": 0.00
             }
         
@@ -108,14 +108,14 @@
     },
     {
         "Ruta": "NaturalAcrilicas",
-        "imagenPortada": "public/Imagenes/Nails/NaturalAcrilica/NaturalAcrilico.webp",
+        "imagenPortada": "/Imagenes/Nails/NaturalAcrilica/NaturalAcrilico.webp",
         "Categoria": "Natural Acrilicas",
         "Descripcion": "",
         "contenido": [
             {
                 "Nombre": "Nat-Acr-01",
                 "Descripcion": "",
-                "Imagen": "public/Imagenes/Nails/NaturalAcrilica/NaturalAcrilico.webp",
+                "Imagen": "/Imagenes/Nails/NaturalAcrilica/NaturalAcrilico.webp",
                 "precio": 0.00
             }
         
@@ -123,14 +123,14 @@
     },
     {
         "Ruta": "Pedicura",
-        "imagenPortada": "public/Imagenes/Nails/Pedicura/Pedicura01.webp",
+        "imagenPortada": "/Imagenes/Nails/Pedicura/Pedicura01.webp",
         "Categoria": "Pedicura",
         "Descripcion": "",
         "contenido": [
             {
                 "Nombre": "Pedicura-01",
                 "Descripcion": "",
-                "Imagen": "public/Imagenes/Nails/Pedicura/Pedicura01.webp",
+                "Imagen": "/Imagenes/Nails/Pedicura/Pedicura01.webp",
                 "precio": 0.00
             }
    
