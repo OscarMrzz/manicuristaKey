@@ -1,0 +1,39 @@
+[
+    {
+        "Categoria": "Naturales",
+        "Descripcion": "lorem ipsum",
+        "Imagen": "https://nailsandspainbloomington.com/wp-content/uploads/2022/12/NAILS__SPA-47401-banner1.jpg",
+        "precio": 100
+    },
+    {
+        "Categoria": "Acrilicas",
+        "Descripcion": "lorem ipsum",
+        "Imagen": "https://nailsandspainbloomington.com/wp-content/uploads/2022/12/NAILS__SPA-47401-banner1.jpg",
+        "precio": 200
+    },
+    {
+        "Categoria":"Nail Art",
+        "Descripcion": "lorem ipsum",
+        "Imagen": "https://nailsandspainbloomington.com/wp-content/uploads/2022/12/NAILS__SPA-47401-banner1.jpg",
+        "precio": 300
+
+    },
+    {
+        "Categoria":"Esmaltado Semipermanente",
+        "Descripcion": "lorem ipsum",
+        "Imagen": "https://nailsandspainbloomington.com/wp-content/uploads/2022/12/NAILS__SPA-47401-banner1.jpg",
+        "precio": 400
+    },
+    {
+        "Categoria":"Uñas de Gel",
+        "Descripcion": "lorem ipsum",
+        "Imagen": "https://nailsandspainbloomington.com/wp-content/uploads/2022/12/NAILS__SPA-47401-banner1.jpg",
+        "precio": 500
+    },
+    {
+        "Categoria":"Manicura Spa",
+        "Descripcion": "lorem ipsum",
+        "Imagen": "https://nailsandspainbloomington.com/wp-content/uploads/2022/12/NAILS__SPA-47401-banner1.jpg",
+        "precio": 600
+    }
+]

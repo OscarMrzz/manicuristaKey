@@ -1,7 +1,20 @@
 ---
+import CategoriasNails from "../lib/Data/Categorias.json"
 import Categoria from './Categoria.astro';
 ---
+	<section>
+		<h2 class="text-5xl text-pink-400 font-bold  flex justify-center items-center mt-10">CATEGORIAS</h2>
+
 <div class="grid grid-cols-1 gap-10 p-10 ">
-   <Categoria/>
-   <Categoria/>
+  {
+    CategoriasNails.map((cat) => (
+      <Categoria 
+        categoria={cat.Categoria} 
+        descripcion={cat.Descripcion} 
+        precio={cat.precio} 
+        URLimagen={cat.Imagen} 
+      />
+    ))
+  }
 </div>
+    </section>
