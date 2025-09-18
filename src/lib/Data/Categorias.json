@@ -55,14 +55,14 @@
     },
     {
         "Ruta": "Acripie",
-        "imagenPortada": "/Imagenes/Nails/Acripie/Acripie01.webp",
+        "imagenPortada": "/Imagenes/Nails/Acripie/acriPie01.webp",
         "Categoria": "Acripie",
         "Descripcion": "",
         "contenido": [
             {
                 "Nombre": "Acripie-01",
                 "Descripcion": "",
-                "Imagen": "/Imagenes/Nails/Acripie/Acripie01.webp",
+                "Imagen": "/Imagenes/Nails/Acripie/acriPie01.webp",
                 "precio": 0.00
             }
          
