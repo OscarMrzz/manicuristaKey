@@ -1,0 +1,31 @@
+---
+import NailsCard from "../components/NailsCard.astro";
+import Layout from "../layouts/Layout.astro";
+import conteNidoCategorias from "../lib/Data/Categorias.json";
+
+export function getStaticPaths() {
+  const RutasNails = conteNidoCategorias.map((Nail) => Nail.Ruta);
+  return RutasNails.map((ruta) => ({
+    params: { ruta },
+  }));
+}
+
+const { ruta } = Astro.params;
+const categoria = conteNidoCategorias.find((Nail) => Nail.Ruta === ruta);
+const nails = categoria ? categoria.contenido : [];
+---
+
+<Layout title="Categorias">
+  <div class="flex flex-col gap-10 p-10">
+    {
+      nails.map((Nail) => (
+        <NailsCard
+          nombreNails={Nail.Nombre}
+          descripcion={Nail.Descripcion}
+          precio={Nail.precio}
+          URLimagen={Nail.Imagen}
+        />
+      ))
+    }
+  </div>
+</Layout>

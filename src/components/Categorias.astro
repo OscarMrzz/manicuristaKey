@@ -1,6 +1,8 @@
 ---
 import CategoriasNails from "../lib/Data/Categorias.json"
 import Categoria from './Categoria.astro';
+
+  const RutasNails = CategoriasNails.map((Nail) => Nail.Ruta);
 ---
 	<section>
 		<h2 class="text-5xl text-pink-400 font-bold  flex justify-center items-center mt-4">CATEGORIAS</h2>
@@ -11,8 +13,9 @@ import Categoria from './Categoria.astro';
       <Categoria 
         categoria={cat.Categoria} 
         descripcion={cat.Descripcion} 
-        precio={cat.precio} 
-        URLimagen={cat.Imagen} 
+        precio={""} 
+        URLimagen={cat.imagenPortada} 
+        link={cat.Ruta}
       />
     ))
   }

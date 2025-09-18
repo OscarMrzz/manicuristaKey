@@ -1,39 +1,116 @@
 [
     {
+        "Ruta": "naturales",
+        "imagenPortada": "https://nailsandspainbloomington.com/wp-content/uploads/2022/12/NAILS__SPA-47401-banner1.jpg",
         "Categoria": "Naturales",
         "Descripcion": "lorem ipsum",
-        "Imagen": "https://nailsandspainbloomington.com/wp-content/uploads/2022/12/NAILS__SPA-47401-banner1.jpg",
-        "precio": 100
+        "contenido": [
+            {
+                "Nombre": "Nat-01",
+                "Descripcion": "Esmalte de uñas color rojo vibrante",
+                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
+                "precio": 200
+            },
+            {
+                "Nombre": "Nat-02",
+                "Descripcion": "Esmalte de uñas color azul cielo",
+                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
+                "precio": 250
+            },
+            {
+                "Nombre": "Nat-03",
+                "Descripcion": "Esmalte de uñas color rosa pastel",
+                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
+                "precio": 300
+            },
+            {
+                "Nombre": "Nat-04",
+                "Descripcion": "Esmalte de uñas color verde menta",
+                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
+                "precio": 350
+            },
+            {
+                "Nombre": "Nat-05",
+                "Descripcion": "Esmalte de uñas color morado intenso",
+                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
+                "precio": 400
+            }
+        ]
     },
     {
+        "Ruta": "Acrilicas",
+        "imagenPortada": "https://nailsandspainbloomington.com/wp-content/uploads/2022/12/NAILS__SPA-47401-banner1.jpg",
         "Categoria": "Acrilicas",
         "Descripcion": "lorem ipsum",
-        "Imagen": "https://nailsandspainbloomington.com/wp-content/uploads/2022/12/NAILS__SPA-47401-banner1.jpg",
-        "precio": 200
+        "contenido": [
+            {
+                "Nombre": "Acr-01",
+                "Descripcion": "Esmalte de uñas color rojo vibrante",
+                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
+                "precio": 200
+            },
+            {
+                "Nombre": "Acr-02",
+                "Descripcion": "Esmalte de uñas color azul cielo",
+                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
+                "precio": 250
+            },
+            {
+                "Nombre": "Acr-03",
+                "Descripcion": "Esmalte de uñas color rosa pastel",
+                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
+                "precio": 300
+            },
+            {
+                "Nombre": "Acr-04",
+                "Descripcion": "Esmalte de uñas color verde menta",
+                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
+                "precio": 350
+            },
+            {
+                "Nombre": "Acr-05",
+                "Descripcion": "Esmalte de uñas color morado intenso",
+                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
+                "precio": 400
+            }
+        ]
     },
     {
-        "Categoria":"Nail Art",
+        "Ruta": "nailart",
+        "imagenPortada": "https://nailsandspainbloomington.com/wp-content/uploads/2022/12/NAILS__SPA-47401-banner1.jpg",
+        "Categoria": "Nail Art",
         "Descripcion": "lorem ipsum",
-        "Imagen": "https://nailsandspainbloomington.com/wp-content/uploads/2022/12/NAILS__SPA-47401-banner1.jpg",
-        "precio": 300
-
-    },
-    {
-        "Categoria":"Esmaltado Semipermanente",
-        "Descripcion": "lorem ipsum",
-        "Imagen": "https://nailsandspainbloomington.com/wp-content/uploads/2022/12/NAILS__SPA-47401-banner1.jpg",
-        "precio": 400
-    },
-    {
-        "Categoria":"Uñas de Gel",
-        "Descripcion": "lorem ipsum",
-        "Imagen": "https://nailsandspainbloomington.com/wp-content/uploads/2022/12/NAILS__SPA-47401-banner1.jpg",
-        "precio": 500
-    },
-    {
-        "Categoria":"Manicura Spa",
-        "Descripcion": "lorem ipsum",
-        "Imagen": "https://nailsandspainbloomington.com/wp-content/uploads/2022/12/NAILS__SPA-47401-banner1.jpg",
-        "precio": 600
+        "contenido": [
+            {
+                "Nombre": "Nail-01",
+                "Descripcion": "Esmalte de uñas color rojo vibrante",
+                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
+                "precio": 200
+            },
+            {
+                "Nombre": "Nail-02",
+                "Descripcion": "Esmalte de uñas color azul cielo",
+                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
+                "precio": 250
+            },
+            {
+                "Nombre": "Nail-03",
+                "Descripcion": "Esmalte de uñas color rosa pastel",
+                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
+                "precio": 300
+            },
+            {
+                "Nombre": "Nail-04",
+                "Descripcion": "Esmalte de uñas color verde menta",
+                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
+                "precio": 350
+            },
+            {
+                "Nombre": "Nail-05",
+                "Descripcion": "Esmalte de uñas color morado intenso",
+                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
+                "precio": 400
+            }
+        ]
     }
 ]
