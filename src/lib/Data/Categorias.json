@@ -1,116 +1,141 @@
 [
     {
-        "Ruta": "naturales",
-        "imagenPortada": "https://nailsandspainbloomington.com/wp-content/uploads/2022/12/NAILS__SPA-47401-banner1.jpg",
-        "Categoria": "Naturales",
-        "Descripcion": "lorem ipsum",
-        "contenido": [
-            {
-                "Nombre": "Nat-01",
-                "Descripcion": "Esmalte de uñas color rojo vibrante",
-                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
-                "precio": 200
-            },
-            {
-                "Nombre": "Nat-02",
-                "Descripcion": "Esmalte de uñas color azul cielo",
-                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
-                "precio": 250
-            },
-            {
-                "Nombre": "Nat-03",
-                "Descripcion": "Esmalte de uñas color rosa pastel",
-                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
-                "precio": 300
-            },
-            {
-                "Nombre": "Nat-04",
-                "Descripcion": "Esmalte de uñas color verde menta",
-                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
-                "precio": 350
-            },
-            {
-                "Nombre": "Nat-05",
-                "Descripcion": "Esmalte de uñas color morado intenso",
-                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
-                "precio": 400
-            }
-        ]
-    },
-    {
         "Ruta": "Acrilicas",
-        "imagenPortada": "https://nailsandspainbloomington.com/wp-content/uploads/2022/12/NAILS__SPA-47401-banner1.jpg",
+        "imagenPortada": "public/Imagenes/Nails/Acrilicas/acrilicas01.webp",
         "Categoria": "Acrilicas",
-        "Descripcion": "lorem ipsum",
+        "Descripcion": "",
         "contenido": [
             {
                 "Nombre": "Acr-01",
-                "Descripcion": "Esmalte de uñas color rojo vibrante",
-                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
-                "precio": 200
+                "Descripcion": "",
+                "Imagen": "public/Imagenes/Nails/Acrilicas/acrilicas01.webp",
+                "precio": 0.00
             },
             {
                 "Nombre": "Acr-02",
-                "Descripcion": "Esmalte de uñas color azul cielo",
-                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
-                "precio": 250
-            },
-            {
-                "Nombre": "Acr-03",
-                "Descripcion": "Esmalte de uñas color rosa pastel",
-                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
-                "precio": 300
-            },
-            {
-                "Nombre": "Acr-04",
-                "Descripcion": "Esmalte de uñas color verde menta",
-                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
-                "precio": 350
-            },
-            {
-                "Nombre": "Acr-05",
-                "Descripcion": "Esmalte de uñas color morado intenso",
-                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
-                "precio": 400
+                "Descripcion": "",
+                "Imagen": "public/Imagenes/Nails/Acrilicas/acrilicas02.webp",
+                "precio": 0.00
             }
+         
         ]
     },
     {
-        "Ruta": "nailart",
-        "imagenPortada": "https://nailsandspainbloomington.com/wp-content/uploads/2022/12/NAILS__SPA-47401-banner1.jpg",
-        "Categoria": "Nail Art",
-        "Descripcion": "lorem ipsum",
+        "Ruta": "AcrilicasAlmendradas",
+        "imagenPortada": "public/Imagenes/Nails/AcrilicasAlmendradas/AcrilicasAlmendradas01.webp",
+        "Categoria": "Acrilicas Almendradas",
+        "Descripcion": "",
         "contenido": [
             {
-                "Nombre": "Nail-01",
-                "Descripcion": "Esmalte de uñas color rojo vibrante",
-                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
-                "precio": 200
+                "Nombre": "Acr-Alm-01",
+                "Descripcion": "",
+                "Imagen": "public/Imagenes/Nails/AcrilicasAlmendradas/AcrilicasAlmendradas01.webp",
+                "precio": 0.00
             },
             {
-                "Nombre": "Nail-02",
-                "Descripcion": "Esmalte de uñas color azul cielo",
-                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
-                "precio": 250
+                "Nombre": "Acr-Alm-02",
+                "Descripcion": "",
+                "Imagen": "public/Imagenes/Nails/AcrilicasAlmendradas/AcrilicasAlmendradas02.webp",
+                "precio": 0.00
             },
             {
-                "Nombre": "Nail-03",
-                "Descripcion": "Esmalte de uñas color rosa pastel",
-                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
-                "precio": 300
+                "Nombre": "Acr-Alm-03",
+                "Descripcion": "",
+                "Imagen": "public/Imagenes/Nails/AcrilicasAlmendradas/AcrilicasAlmendradas03.webp",
+                "precio": 0.00
             },
             {
-                "Nombre": "Nail-04",
-                "Descripcion": "Esmalte de uñas color verde menta",
-                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
-                "precio": 350
-            },
-            {
-                "Nombre": "Nail-05",
-                "Descripcion": "Esmalte de uñas color morado intenso",
-                "Imagen": "https://tse1.explicit.bing.net/th/id/OIP.rOIvm_JNOf1XddGWeTE1GgHaEp?rs=1&pid=ImgDetMain&o=7&rm=3",
-                "precio": 400
+                "Nombre": "Acr-Alm-04",
+                "Descripcion": "",
+                "Imagen": "public/Imagenes/Nails/AcrilicasAlmendradas/AcrilicasAlmendradas04.webp",
+                "precio": 0.00
             }
+        
+        ]
+    },
+    {
+        "Ruta": "Acripie",
+        "imagenPortada": "public/Imagenes/Nails/Acripie/Acripie01.webp",
+        "Categoria": "Acripie",
+        "Descripcion": "",
+        "contenido": [
+            {
+                "Nombre": "Acripie-01",
+                "Descripcion": "",
+                "Imagen": "public/Imagenes/Nails/Acripie/Acripie01.webp",
+                "precio": 0.00
+            }
+         
+        ]
+    },
+    {
+        "Ruta": "BanioAcrilico",
+        "imagenPortada": "public/Imagenes/Nails/BanioAcrilico/banioAcrilico01.webp",
+        "Categoria": "Baño Acrilico",
+        "Descripcion": "",
+        "contenido": [
+            {
+                "Nombre": "Baño-Acr-01",
+                "Descripcion": "",
+                "Imagen": "public/Imagenes/Nails/BanioAcrilico/banioAcrilico01.webp",
+                "precio": 0.00
+            },
+            {
+                "Nombre": "Banio-Acr-02",
+                "Descripcion": "",
+                "Imagen": "public/Imagenes/Nails/BanioAcrilico/banioAcrilico02.webp",
+                "precio": 0.00
+            }
+        
+        ]
+
+    },
+    {
+        "Ruta": "EsmalteEnGel",
+        "imagenPortada": "public/Imagenes/Nails/EsmalteEnGel/EsmalteEnGel01.webp",
+        "Categoria": "Esmalte en Gel",
+        "Descripcion": "",
+        "contenido": [
+            {
+                "Nombre": "Esm-Gel-01",
+                "Descripcion": "",
+                "Imagen": "public/Imagenes/Nails/EsmalteEnGel/EsmalteEnGel01.webp",
+                "precio": 0.00
+            }
+        
+        ]
+
+    },
+    {
+        "Ruta": "NaturalAcrilicas",
+        "imagenPortada": "public/Imagenes/Nails/NaturalAcrilica/NaturalAcrilico.webp",
+        "Categoria": "Natural Acrilicas",
+        "Descripcion": "",
+        "contenido": [
+            {
+                "Nombre": "Nat-Acr-01",
+                "Descripcion": "",
+                "Imagen": "public/Imagenes/Nails/NaturalAcrilica/NaturalAcrilico.webp",
+                "precio": 0.00
+            }
+        
+        ]
+    },
+    {
+        "Ruta": "Pedicura",
+        "imagenPortada": "public/Imagenes/Nails/Pedicura/Pedicura01.webp",
+        "Categoria": "Pedicura",
+        "Descripcion": "",
+        "contenido": [
+            {
+                "Nombre": "Pedicura-01",
+                "Descripcion": "",
+                "Imagen": "public/Imagenes/Nails/Pedicura/Pedicura01.webp",
+                "precio": 0.00
+            }
+   
+        
         ]
     }
+
 ]

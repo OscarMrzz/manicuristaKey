@@ -2,12 +2,12 @@
 const { categoria, descripcion, precio, URLimagen, link } = Astro.props;
 ---
 
-<a href={link} class="block w-full h-80 bg-white shadow-lg rounded-2xl overflow-hidden transition-transform hover:scale-105">
+<a href={link} class="block w-full h-70 bg-white shadow-lg rounded-2xl overflow-hidden transition-transform hover:scale-105">
   <div class="bg-white h-40 rounded-t-2xl flex items-center justify-center overflow-hidden"> 
     <img class="w-full h-full object-cover" src={URLimagen} alt={categoria} />
   </div>
   <div class="p-4">
-    <h2 class="text-2xl font-bold text-pink-700">{categoria}</h2>
+    <h2 class="text-xl font-bold text-pink-700">{categoria}</h2>
     <p class="text-pink-600 mt-2">{descripcion}</p>
   </div>
 </a>
