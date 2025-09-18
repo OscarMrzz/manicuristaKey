@@ -3,9 +3,9 @@ import CategoriasNails from "../lib/Data/Categorias.json"
 import Categoria from './Categoria.astro';
 ---
 	<section>
-		<h2 class="text-5xl text-pink-400 font-bold  flex justify-center items-center mt-10">CATEGORIAS</h2>
+		<h2 class="text-5xl text-pink-400 font-bold  flex justify-center items-center mt-4">CATEGORIAS</h2>
 
-<div class="grid grid-cols-1 gap-10 p-10 ">
+<div class="grid grid-cols-2 gap-2 p-4 ">
   {
     CategoriasNails.map((cat) => (
       <Categoria 
