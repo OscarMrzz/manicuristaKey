@@ -4,14 +4,40 @@ import InstagranIcono from './Iconos/InstagranIcono.astro';
 import TiktokIncono from './Iconos/TiktokIncono.astro';
 ---
 
-
-<section>
-    <h2 class="text-4xl text-pink-400 font-bold  flex justify-center items-center mt-4">REDES SOCIALES</h2>
-    <div class="flex justify-between gap-4 px-10 mt-10 pb-25 ">
-        <a class=" flex text-4xl font-bold text-gray-700" href=""><FacebookIcono/> </a>
-        <a class="flex text-4xl font-bold text-gray-700"  href=""><InstagranIcono/> </a>
-        <a class="flex text-4xl font-bold text-gray-700"  href=""><TiktokIncono/></a>
+<section id="redes" class="py-20 px-4 bg-[#fff0f3]">
+  <div class="max-w-4xl mx-auto text-center">
+    <p class="text-[#ff8fa3] font-medium tracking-widest uppercase mb-3 text-sm">Síguenos</p>
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 font-serif mb-6">Nuestras Redes</h2>
+    <p class="text-gray-600 mb-10 max-w-md mx-auto">Mantente al día con nuestros últimos diseños y promociones.</p>
+    
+    <div class="flex justify-center gap-6 md:gap-10">
+      <a 
+        href="https://www.facebook.com/keynails" 
+        target="_blank"
+        rel="noopener noreferrer"
+        class="flex items-center justify-center w-16 h-16 bg-white rounded-full shadow-md hover:shadow-xl hover:bg-[#ff8fa3] hover:text-white text-gray-600 transition-all duration-300 hover:-translate-y-1"
+        aria-label="Facebook"
+      >
+        <FacebookIcono />
+      </a>
+      <a 
+        href="https://instagram.com/keynails" 
+        target="_blank"
+        rel="noopener noreferrer"
+        class="flex items-center justify-center w-16 h-16 bg-white rounded-full shadow-md hover:shadow-xl hover:bg-[#ff8fa3] hover:text-white text-gray-600 transition-all duration-300 hover:-translate-y-1"
+        aria-label="Instagram"
+      >
+        <InstagranIcono />
+      </a>
+      <a 
+        href="https://tiktok.com/@keynails" 
+        target="_blank"
+        rel="noopener noreferrer"
+        class="flex items-center justify-center w-16 h-16 bg-white rounded-full shadow-md hover:shadow-xl hover:bg-[#ff8fa3] hover:text-white text-gray-600 transition-all duration-300 hover:-translate-y-1"
+        aria-label="TikTok"
+      >
+        <TiktokIncono />
+      </a>
     </div>
-   
-
+  </div>
 </section>

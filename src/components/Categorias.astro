@@ -1,23 +1,26 @@
 ---
 import CategoriasNails from "../lib/Data/Categorias.json"
 import Categoria from './Categoria.astro';
-
-  const RutasNails = CategoriasNails.map((Nail) => Nail.Ruta);
 ---
-	<section>
-		<h2 class="text-5xl text-pink-400 font-bold  flex justify-center items-center mt-4">CATEGORIAS</h2>
 
-<div class="grid grid-cols-2 gap-2 p-4 ">
-  {
-    CategoriasNails.map((cat) => (
-      <Categoria 
-        categoria={cat.Categoria} 
-        descripcion={cat.Descripcion} 
-        precio={""} 
-        URLimagen={cat.imagenPortada} 
-        link={cat.Ruta}
-      />
-    ))
-  }
-</div>
-    </section>
+<section id="categorias" class="py-20 px-4 bg-white">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-16">
+      <p class="text-[#ff8fa3] font-medium tracking-widest uppercase mb-3 text-sm">Lo que ofrecemos</p>
+      <h2 class="text-4xl md:text-5xl font-bold text-gray-800 font-serif">Nuestros Servicios</h2>
+      <div class="w-20 h-1 bg-gradient-to-r from-[#ffe4e9] to-[#ff8fa3] mx-auto mt-6 rounded-full"></div>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+      {CategoriasNails.map((cat) => (
+        <Categoria 
+          categoria={cat.Categoria} 
+          descripcion={cat.Descripcion} 
+          precio={""} 
+          URLimagen={cat.imagenPortada} 
+          link={cat.Ruta}
+        />
+      ))}
+    </div>
+  </div>
+</section>

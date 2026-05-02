@@ -1,6 +1,27 @@
+---
+import WhsappIcono from "./Iconos/WhsappIcono.astro";
+---
 
+<header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md shadow-sm">
+  <nav class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="/" class="text-2xl font-bold tracking-tight">
+      <span class="text-gray-800 font-serif">Key</span><span class="text-[#ff8fa3]">Nails</span>
+    </a>
 
-<header class="">
-    
+    <ul class="hidden md:flex items-center gap-8">
+      <li><a href="#categorias" class="text-gray-600 hover:text-[#ff8fa3] transition-colors font-medium">Servicios</a></li>
+      <li><a href="#redes" class="text-gray-600 hover:text-[#ff8fa3] transition-colors font-medium">Redes</a></li>
+      <li><a href="#ubicacion" class="text-gray-600 hover:text-[#ff8fa3] transition-colors font-medium">Ubicación</a></li>
+    </ul>
 
+    <a
+      href="https://wa.me/50496791567"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="flex items-center gap-2 bg-[#ff8fa3] text-white px-4 py-2 rounded-full hover:bg-pink-400 transition-all duration-300 shadow-md hover:shadow-lg"
+    >
+      <WhsappIcono />
+      <span class="hidden sm:inline font-medium text-sm">Agendar</span>
+    </a>
+  </nav>
 </header>

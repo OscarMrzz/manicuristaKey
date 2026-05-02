@@ -13,19 +13,52 @@ export function getStaticPaths() {
 const { ruta } = Astro.params;
 const categoria = conteNidoCategorias.find((Nail) => Nail.Ruta === ruta);
 const nails = categoria ? categoria.contenido : [];
+
+const descripcionesSEO: Record<string, string> = {
+  "Acrilicas": "Uñas acrílicas profesionales en Atlantida Honduras. Diseños exclusivos y duraderos. Studio de manicura en Santa Rosa del Norte.",
+  "AcrilicasAlmendradas": "Uñas acrílicas almendradas en Honduras. Diseño elegante y natural. Servicios de manicura en Atlantida, Tela y Mezapa.",
+  "Acripie": "Uñas en pies - Acripie profesional en Santa Rosa del Norte. Pedicura perfecta en Atlantida Honduras.",
+  "BanioAcrilico": "Baño acrilico para uñas en Honduras. Tratamiento profesional en nuestro studio de Atlantida.",
+  "EsmalteEnGel": "Esmalte en gel de larga duración. Uñas perfectas en Tela, Mezapa y Atlantida Honduras.",
+  "NaturalAcrilicas": "Uñas naturales con acrílico. Looks naturales y elegantes en Santa Rosa del Norte.",
+  "Pedicura": "Pedicura profesional en Honduras. Cuidado completo de pies y uñas en Atlantida."
+};
 ---
 
-<Layout title="Categorias">
-  <div class="flex flex-col gap-10 p-10">
-    {
-      nails.map((Nail) => (
-        <NailsCard
-          nombreNails={Nail.Nombre}
-          descripcion={Nail.Descripcion}
-          precio={Nail.precio}
-          URLimagen={Nail.Imagen}
-        />
-      ))
-    }
-  </div>
+<Layout title={`${categoria?.Categoria || 'Categoría'} | KeyNails`}>
+  <section class="py-16 px-4">
+    <div class="max-w-6xl mx-auto">
+      <div class="text-center mb-12">
+        <a 
+          href="/" 
+          class="inline-flex items-center gap-2 text-[#ff8fa3] hover:text-pink-400 transition-colors mb-4"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+          </svg>
+          <span class="font-medium">Volver</span>
+        </a>
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-800 font-serif">{categoria?.Categoria}</h1>
+        <p class="text-gray-600 mt-3 max-w-xl mx-auto">{descripcionesSEO[categoria?.Categoria || ''] || 'Servicios profesionales de manicura en Honduras'}</p>
+        <div class="w-20 h-1 bg-gradient-to-r from-[#ffe4e9] to-[#ff8fa3] mx-auto mt-6 rounded-full"></div>
+      </div>
+
+      {nails.length > 0 ? (
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {nails.map((Nail) => (
+            <NailsCard
+              nombreNails={Nail.Nombre}
+              descripcion={Nail.Descripcion}
+              precio={Nail.precio}
+              URLimagen={Nail.Imagen}
+            />
+          ))}
+        </div>
+      ) : (
+        <div class="text-center py-16">
+          <p class="text-gray-500 text-lg">Próximamente más diseños en esta categoría.</p>
+        </div>
+      )}
+    </div>
+  </section>
 </Layout>

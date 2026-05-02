@@ -1,0 +1,10 @@
+# Robots.txt para KeyNails Studio de Uñas
+# Honduras - Atlantida, Tela, Mezapa
+
+User-agent: *
+Allow: /
+
+Sitemap: https://keynails.com/sitemap.xml
+
+# Información del sitio
+Host: https://keynails.com

@@ -1,0 +1,34 @@
+[
+    {
+        "id": "cert-001",
+        "titulo": "Certificación Internacional de Nail Art",
+        "institucion": "International Nail Academy",
+        "fecha": "2024",
+        "imagenes": ["", "", ""],
+        "descripcion": "Certificación avanzada en técnicas de Nail Art profesional"
+    },
+    {
+        "id": "cert-002",
+        "titulo": "Técnicas de Extensión de Uñas",
+        "institucion": "Beauty Certification Hub",
+        "fecha": "2023",
+        "imagenes": ["", "", ""],
+        "descripcion": "Curso especializado en acrílicas y gel con técnicas avanzadas"
+    },
+    {
+        "id": "cert-003",
+        "titulo": "Manicure y Pedicure Profesional",
+        "institucion": "Honduras Beauty School",
+        "fecha": "2022",
+        "imagenes": ["", "", ""],
+        "descripcion": "Formación completa en cuidado profesional de uñas"
+    },
+    {
+        "id": "cert-004",
+        "titulo": "Nail Art Avanzado",
+        "institucion": "Professional Nail Academy",
+        "fecha": "2023",
+        "imagenes": ["", "", ""],
+        "descripcion": "Especialización en decoraciones y diseños avanzados"
+    }
+]

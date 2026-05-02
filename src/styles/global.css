@@ -1,16 +1,56 @@
 @import "tailwindcss";
 
-/* quiero colocar estilos personalisados para taiwon */
-/* Colocalos */
-
-@theme{
-  --theme-color-primario: #ffcad4;
-  --theme-color-secundario: #f4acb7;
-  --theme-color-terciario: #9d8189;
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('https://fonts.gstatic.com/s/playfairdisplay/v37/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvUDTbtPY_A.woff2') format('woff2');
+  font-weight: 400 900;
+  font-display: swap;
+}
 
+@font-face {
+  font-family: 'Inter';
+  src: url('https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff2') format('woff2');
+  font-weight: 100 900;
+  font-display: swap;
+}
 
+html {
+  scroll-behavior: smooth;
+}
 
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
 
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Animations */
+@keyframes entrada-suave {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes flotar {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.anim-entrada-1 { animation: entrada-suave 0.5s ease-out both; }
+.anim-entrada-2 { animation: entrada-suave 0.5s ease-out 0.15s both; }
+.anim-entrada-3 { animation: entrada-suave 0.5s ease-out 0.3s both; }
+.anim-entrada-4 { animation: entrada-suave 0.5s ease-out 0.45s both; }
+.anim-entrada-5 { animation: entrada-suave 0.5s ease-out 0.6s both; }
+.anim-flotar { animation: flotar 2s ease-in-out infinite; }

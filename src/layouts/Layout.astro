@@ -4,40 +4,106 @@ import "../styles/global.css";
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="es-HN">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3X7R1K5Y0T"
-    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="theme-color" content="#ff8fa3" />
+    
+    <!-- SEO - Título optimizado para Honduras -->
+    <title>KeyNails | Studio de Uñas en Atlantida, Honduras - Manicura Profesional en Tela, Mezapa</title>
+    
+    <!-- Meta Description optimizada para búsqueda local -->
+    <meta name="description" content="Studio de uñas profesional en Santa Rosa del Norte, Atlantida Honduras. Manicura, uñas acrílicas, gel, diseños exclusivos. Located in Tela & Mezapa area. ¡Agenda tu cita hoy!" />
+    
+    <!-- Keywords locales -->
+    <meta name="keywords" content="uñas, manicura, studio de uñas, atlantida, tela, mezapa, santa rosa del norte, manos, belleza de uñas, uñas acrílicas, gel esmaltado, pedicura, barber shop nails Honduras" />
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://keynails.com" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://keynails.com" />
+    <meta property="og:title" content="KeyNails | Studio de Uñas en Atlantida Honduras" />
+    <meta property="og:description" content="Studio de uñas profesional en Santa Rosa del Norte. Uñas acrílicas, gel, manicura y pedicura. ¡Visítanos en Tela, Mezapa!" />
+    <meta property="og:locale" content="es_HN" />
+    <meta property="og:site_name" content="KeyNails" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="KeyNails | Studio de Uñas en Honduras" />
+    <meta name="twitter:description" content="Studio de uñas profesional en Atlantida. Manicura, uñas acrílicas, gel. ¡Agenda tu cita!" />
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3X7R1K5Y0T"></script>
     <script is:inline>
       window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        window.dataLayer.push(arguments);
-      }
+      function gtag() { window.dataLayer.push(arguments); }
       gtag("js", new Date());
       gtag("config", "G-3X7R1K5Y0T");
     </script>
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="generator" content={Astro.generator} />
-    <title>Astro Basics</title>
+    <!-- Schema.org LocalBusiness para búsqueda local -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BeautySalon",
+      "name": "KeyNails Studio de Uñas",
+      "description": "Studio de uñas profesional en Santa Rosa del Norte, Atlantida Honduras. Servicios de manicura, uñas acrílicas, gel y diseños exclusivos.",
+      "url": "https://keynails.com",
+      "telephone": "+50496791567",
+      "priceRange": "L",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Barrio Anash",
+        "addressLocality": "Santa Rosa del Norte",
+        "addressRegion": "Atlantida",
+        "addressCountry": "HN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "15.603944914655486",
+        "longitude": "-87.66421114366575"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      "areaServed": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "15.6039",
+          "longitude": "-87.6642"
+        },
+        "geoRadius": "50000"
+      },
+      "sameAs": [
+        "https://facebook.com/keynails",
+        "https://instagram.com/keynails",
+        "https://tiktok.com/@keynails"
+      ]
+    }
+    </script>
   </head>
-  <body class="">
+  <body class="bg-white min-h-screen overflow-x-hidden">
     <Header />
-    <main class="">
+    <main class="pt-20">
       <slot />
     </main>
+    <footer class="bg-[#fff0f3] py-8 mt-16">
+      <div class="max-w-4xl mx-auto px-4 text-center">
+        <p class="text-[#ff8fa3] font-medium">© 2026 KeyNails. Todos los derechos reservados.</p>
+        <p class="text-gray-500 text-sm mt-2">Studio de Uñas en Atlantida, Honduras</p>
+      </div>
+    </footer>
   </body>
 </html>
-
-<style>
-  html,
-  body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(234, 234, 248);
-  }
-</style>

@@ -1,0 +1,95 @@
+{
+    "descripcion": "Academia de manicure y nail art en Mezapa, Honduras. Cursos prácticos de decorado de uñas.",
+    "descripcion2": "",
+    "cursos": [
+        {
+            "id": "curso-001",
+            "nombre": "Manicure Básico",
+            "descripcion": "Fundamentos de manicure profesional, cutículas, limado y pintura básica",
+            "horas": 20,
+            "imagenes": ["", "", ""]
+        },
+        {
+            "id": "curso-002",
+            "nombre": "Acrílicas y Gel",
+            "descripcion": "Técnicas avanzadas de extensión de uñas con acrílico y gel",
+            "horas": 40,
+            "imagenes": ["", "", ""]
+        },
+        {
+            "id": "curso-003",
+            "nombre": "Nail Art Creativo",
+            "descripcion": "Decoraciones, batuques, diseños artísticos y técnicas de transferencia",
+            "horas": 30,
+            "imagenes": ["", "", ""]
+        },
+        {
+            "id": "curso-004",
+            "nombre": "Pedicure Profesional",
+            "descripcion": "Cuidado completo de pies, spa foot y técnicas de pedicure profesional",
+            "horas": 15,
+            "imagenes": ["", "", ""]
+        },
+        {
+            "id": "curso-005",
+            "nombre": "Nail Art Avanzado",
+            "descripcion": "Diseños complejos, 3D, cameo, y técnicas de nail piercing",
+            "horas": 35,
+            "imagenes": ["", "", ""]
+        }
+    ],
+    "alumnas": [
+        {
+            "id": "alumna-001",
+            "nombre": "María García",
+            "promocion": "2023",
+            "imagen": "",
+            "trabajo": "Acrílicas con diseño floral",
+            "descripcion": "Especialista en nail art realista"
+        },
+        {
+            "id": "alumna-002",
+            "nombre": "Ana López",
+            "promocion": "2023",
+            "imagen": "",
+            "trabajo": "Nail art geométrico",
+            "descripcion": "Maestra en diseños minimalistas"
+        },
+        {
+            "id": "alumna-003",
+            "nombre": "Carmen Rodríguez",
+            "promocion": "2022",
+            "imagen": "",
+            "trabajo": "Gel esculpido",
+            "descripcion": "Experta en uñas de gel natural"
+        },
+        {
+            "id": "alumna-004",
+            "nombre": "Sofia Hernández",
+            "promocion": "2024",
+            "imagen": "",
+            "trabajo": "Decoraciones 3D",
+            "descripcion": "Especialista en charm y elementos 3D"
+        }
+    ],
+    "promociones": [
+        {
+            "ano": 2024,
+            "cantidad": 25,
+            "imagen": "",
+            "descripcion": "Primera promoción del año con énfasis en nail art moderno"
+        },
+        {
+            "ano": 2023,
+            "cantidad": 48,
+            "imagen": "",
+            "descripcion": "Año récord con nuevas técnicas de extensiones"
+        },
+        {
+            "ano": 2022,
+            "cantidad": 35,
+            "imagen": "",
+            "descripcion": "Promoción pionera en técnicas de pedicure spa"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+---
+import { getCertificados } from '../lib/Services/CertificadosServices';
+import ImagenGenerica from './Iconos/ImagenGenerica.astro';
+
+const certificados = getCertificados().slice(0, 4);
+---
+
+<section class="py-16 bg-gradient-to-b from-pink-50 to-white" id="certificados">
+  <div class="container mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Certificados y Diplomas</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto">Mis certificaciones profesionales en manicure y nail art</p>
+    </div>
+    
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
+      {certificados.map((certificado) => (
+        <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 aspect-square">
+          {certificado.imagenes[0] ? (
+            <img class="w-full h-full object-cover" src={certificado.imagenes[0]} alt={certificado.titulo} />
+          ) : (
+            <ImagenGenerica />
+          )}
+        </div>
+      ))}
+    </div>
+    
+    <div class="text-center">
+      <a 
+        href="/certificados" 
+        class="inline-block bg-[#ff8fa3] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#ff6b8a] transition-colors duration-300"
+      >
+        Ver más
+      </a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,31 @@
+---
+import { getAcademia } from '../lib/Services/AcademiaServices';
+
+const academia = getAcademia();
+---
+
+<section class="py-16 bg-white" id="academia">
+  <div class="container mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Academia</h2>
+    </div>
+    
+    <div class="max-w-2xl mx-auto text-center mb-10">
+      <p class="text-gray-600 text-lg leading-relaxed">
+        {academia.descripcion}
+      </p>
+      <div class="h-12 overflow-hidden relative">
+        <div class="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-white to-transparent"></div>
+      </div>
+    </div>
+    
+    <div class="text-center">
+      <a 
+        href="/academia" 
+        class="inline-block border-2 border-[#ff8fa3] text-[#ff8fa3] px-8 py-3 rounded-full font-semibold hover:bg-[#ff8fa3] hover:text-white transition-colors duration-300"
+      >
+        Saber más
+      </a>
+    </div>
+  </div>
+</section>
