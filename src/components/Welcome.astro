@@ -5,13 +5,20 @@ import Redes from "./Redes.astro";
 import Ubicacion from "./Ubicacion.astro";
 import Certificados from "./Certificados.astro";
 import Academia from "./Academia.astro";
+
+interface Props {
+  showAcademia?: boolean;
+  showCertificados?: boolean;
+}
+
+const { showAcademia = true, showCertificados = true } = Astro.props;
 ---
 
 <div id="container">
   <Hiro />
   <Categorias />
-  <Certificados />
-  <Academia />
+  {showCertificados && <Certificados />}
+  {showAcademia && <Academia />}
   <Redes />
   <Ubicacion />
 </div>
